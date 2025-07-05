@@ -20,11 +20,12 @@ print(":::::::::::::RANKING::::::::::::::::")
 
 for cols in cols_table:
     print(f"{cols.text}", end=' ')
-    columns_data = cols.text
+print("\n:::::::::::::PLAYERS::::::::::::::::")
 
 for row in rows_table:
     print(f'{row.text}', end=' ')
-    rows_data = rows_table     
+print("\n:::::::::::::END::::::::::::::::")
+      
 
 driver.quit()
 
